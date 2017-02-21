@@ -8,9 +8,20 @@
   </head>
   <body>
     <h1>Word Puzzle Game!</h1>
-    <h3>Here's the string:</h3>
-    <p id="stringBox">
-
-    </p>
+    <form id="formOne">
+      <label for="input1">Enter a string: </label><br>
+      <textarea id="input1" for="input1" rows="8" cols="40"></textarea><br>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="outputBox">
+      <h3>Here's the string:</h3>
+      <p id="stringBox"></p><br>
+      <form id="formTwo">
+        <label for="input2">Enter a string to guess the sentence:</label><br>
+        <textarea id="input2" rows="8" cols="40"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <h2 id="outputInfo"></h2>
+    </div>
   </body>
 </html>
